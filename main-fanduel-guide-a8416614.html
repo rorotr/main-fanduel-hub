@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于 fanduel · 信息参考页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f2f2;
+            font-family: 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        /* 卡片式分区 */
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.04);
+            padding: 2rem 2.2rem;
+            margin-bottom: 2rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.06);
+        }
+
+        /* 首屏简略标题区 */
+        .hero-mini {
+            margin-bottom: 1.8rem;
+        }
+
+        .hero-mini h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            color: #1c1c1c;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-mini .sub {
+            color: #5c5c5c;
+            font-size: 1rem;
+            border-left: 3px solid #b0b0b0;
+            padding-left: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        /* 正文排版 */
+        .article-body p {
+            margin-bottom: 1.2rem;
+            font-size: 1rem;
+            color: #2b2b2b;
+        }
+
+        .article-body p:last-child {
+            margin-bottom: 0;
+        }
+
+        .article-body .quote-line {
+            background: #f6f6f6;
+            border-left: 4px solid #8a8a8a;
+            padding: 0.9rem 1.4rem;
+            margin: 1.8rem 0;
+            font-style: normal;
+            color: #3b3b3b;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+        }
+
+        .article-body .faq-note {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 1.4rem 1.6rem;
+            margin: 1.6rem 0;
+            border: 1px solid #e6e6e6;
+        }
+
+        .faq-note dt {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+            color: #1f1f1f;
+        }
+
+        .faq-note dd {
+            margin-left: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: #3d3d3d;
+        }
+
+        .faq-note dd:last-child {
+            margin-bottom: 0;
+        }
+
+        .inline-link {
+            color: #1a5e8a;
+            text-decoration: none;
+            border-bottom: 1px solid #bcd3e6;
+            transition: border-color 0.15s;
+        }
+
+        .inline-link:hover {
+            border-bottom-color: #1a5e8a;
+        }
+
+        /* 访问句模块 */
+        .visit-note {
+            margin-top: 1rem;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.8rem 2.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.04);
+            font-size: 1rem;
+            color: #2c2c2c;
+        }
+
+        .visit-note strong {
+            font-weight: 500;
+        }
+
+        .footer-meta {
+            text-align: center;
+            color: #767676;
+            font-size: 0.85rem;
+            padding: 2.2rem 0 0.8rem 0;
+            border-top: 1px solid #dbdbdb;
+            margin-top: 2.2rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            .card {
+                padding: 1.4rem 1.2rem;
+            }
+            .hero-mini h1 {
+                font-size: 1.7rem;
+            }
+            .visit-note {
+                padding: 1.2rem 1.2rem;
+            }
+            .article-body .quote-line {
+                padding: 0.7rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- 标题 + 导语 -->
+    <div class="card hero-mini">
+        <h1>fanduel · 信息整理</h1>
+        <div class="sub">日常查询 / 对照阅读 / 延伸参考</div>
+    </div>
+
+    <!-- 正文区域（多段 + 引用 + FAQ摘要） -->
+    <div class="card article-body">
+        <p>在接触在线体育竞猜与 fantasy 平台时，很多人会首先遇到 <strong>fanduel</strong> 这个名字。无论是想查询某个联赛的盘口变化，还是对照不同平台的玩法差异，<a href="https://main-fanduel.com" class="inline-link">fanduel</a> 常常出现在比较列表的前几位。它的界面逻辑、项目分类以及实时数据更新方式，都值得花一点时间熟悉。</p>
+
+        <p>从日常使用的角度来说，大部分用户会先查看自己感兴趣的赛事是否被覆盖。北美四大联盟、欧洲足球主流联赛以及 UFC、NASCAR 等项目的赔率都会集中呈现。如果你习惯在比赛开始前快速浏览选手或队伍近况，<strong>fanduel</strong> 的信息面板通常会把近期战绩、伤病记录和交锋历史放在显眼位置，省去在多标签页之间切换的麻烦。</p>
+
+        <div class="quote-line">
+            “无论你是在比较同一场比赛在不同平台的赔率，还是单纯想确认某个投注项的详细规则，<strong>fanduel</strong> 的说明页面都值得作为对照基准。”
+        </div>
+
+        <p>另一个常见的场景是延伸阅读：当你在论坛或社交媒体上看到某个关于“同场过串”或“让分线变动”的讨论时，直接打开 <a href="https://main-fanduel.com" class="inline-link">fanduel</a> 对应赛事页面，就能看到实时更新的赔率走势和封盘时间。很多资深用户会把这种即时对照当作判断市场倾向的参考之一。</p>
+
+        <p>对于刚接触这类平台的人来说，理解“现金 out”和“同注分彩”等术语的含义可能比想象中更耗时。实际上，<strong>fanduel</strong> 的规则页面和帮助中心写得相当直白，每个投注类型都有简短的说明示例。把那些说明通读一遍，基本就能覆盖常见的概念盲区。</p>
+
+        <!-- FAQ摘要卡片 -->
+        <div class="faq-note">
+            <dl>
+                <dt>Q：日常查询时最常用的功能是什么？</dt>
+                <dd>多数人习惯先看“即将开始”板块，里面按时间列出近两小时内的所有比赛，附带赔率变化箭头。另一个常用入口是“我的投注”历史，方便回溯之前的判断逻辑。</dd>
+
+                <dt>Q：如果想横向比较其他平台，<strong>fanduel</strong> 适合作为基准吗？</dt>
+                <dd>可以。因为它的赔率更新频率高，且覆盖的联赛范围较广，用同一场比赛在不同平台间的差异来分析市场态度，是目前很普遍的做法。</dd>
+
+                <dt>Q：有没有针对特定赛事的深度数据？</dt>
+                <dd>部分热门赛事会提供球队/选手近期效率、上下半场表现分布等进阶数据。这些内容在赛事详情页的“统计”标签页下可以找到。</dd>
+            </dl>
+        </div>
+
+        <p>如果你平时有记录自己投注习惯的习惯，会发现 <strong>fanduel</strong> 的账户历史导出功能很实用。把一定周期内的数据拉出来，按赛事、投注类型、赔率区间做简单分类，就能看出自己的偏好和胜率分布。这种基于实际数据的复盘，比单纯凭记忆总结要准确得多。</p>
+    </div>
+
+    <!-- 访问句（自然嵌入链接，不带指令性动词） -->
+    <div class="visit-note">
+        <p style="margin-bottom: 0.4rem;"><strong>当前页面作为信息参考</strong></p>
+        <p>如果你需要查看实时的赛事列表、赔率变化或规则说明，可以直接去 <a href="https://main-fanduel.com" class="inline-link">fanduel</a> 浏览。那里的内容每天都在更新，和这里整理的方向相互补充。</p>
+    </div>
+
+    <div class="footer-meta">
+        <span>整理于日常查询 · 页面仅作介绍用途</span>
+    </div>
+
+</div>
+</body>
+</html>
