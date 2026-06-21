@@ -1,2 +1,43 @@
-# main-fanduel-hub
-HTML page archive and documentation
+# Main FanDuel Hub
+
+## 项目简介
+
+本项目用于归档和整理多个独立的 HTML 页面。这些页面以静态形式存放于此仓库，便于集中管理、版本追踪与后续查阅。
+
+仓库本身不针对特定网站或服务，仅作为 HTML 资源集合的存储与发布平台。
+
+## 目录结构说明
+
+```
+main-fanduel-hub/
+├── pages/         # 存放所有独立 HTML 页面
+├── assets/        # 页面引用的公共资源（如 CSS、JS、图片等）
+├── README.md      # 本文件
+└── LICENSE        # 开源许可文件（如有）
+```
+
+各 HTML 页面均放置于 `pages/` 目录下，按需命名，文件之间相互独立。
+
+## 页面归档说明
+
+- 所有页面均为静态 HTML 文件，可直接在浏览器中打开。
+- 页面内容可能引用 `assets/` 目录下的资源文件，请保持目录结构完整。
+- 归档内容可能不定期更新或补充，历史版本可通过 Git 提交记录追溯。
+
+## 维护说明
+
+- 欢迎提交 Issue 或 Pull Request 对页面进行修正、优化或新增。
+- 提交前请确保 HTML 文件符合基本规范，无明显语法错误。
+- 不建议在页面中加入外部链接或动态内容，以保持归档的稳定性与可移植性。
+
+## 使用方式
+
+1. 克隆本仓库到本地：
+   ```
+   git clone https://github.com/your-username/main-fanduel-hub.git
+   ```
+2. 直接在浏览器中打开 `pages/` 下的任意 HTML 文件即可查看。
+
+## 许可
+
+本仓库内容采用 [MIT 许可证](LICENSE) 发布，详情请参阅 LICENSE 文件。
